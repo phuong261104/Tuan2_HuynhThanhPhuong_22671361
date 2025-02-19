@@ -6,7 +6,7 @@ const Ex2 = () => {
     const [rs, setRs] = useState()
 
     const handleOnClick = () => {
-        if(!isNaN(a) && !isNaN(b)){
+        if(a !== null && b !== null){
             console.log(a,b)
             setRs(Number(a)+Number(b))
         }

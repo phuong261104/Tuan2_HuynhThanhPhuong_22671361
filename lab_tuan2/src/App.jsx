@@ -5,6 +5,7 @@ import './App.css'
 import Ex1 from './component/ex1'
 import Ex2 from './component/ex2'
 import Ex3 from './component/ex3'
+import Ex4 from './component/ex4'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +17,8 @@ function App() {
       <Ex2/>
       <br />
       <Ex3/>
+      <br />
+      <Ex4/>
     </>
   )
 }

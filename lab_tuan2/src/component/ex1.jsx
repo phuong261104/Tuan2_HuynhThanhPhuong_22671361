@@ -9,10 +9,9 @@ const Ex1 = () => {
         <>
         <h3>Ex1</h3>
         <div>
-        <input type="text" onChange={(e)=>{setName(e.target.value)}} placeholder="input name"/>
-        <br />
-        </div>
+        <input type="text" style={{marginRight: "10px"}} onChange={(e)=>{setName(e.target.value)}} placeholder="input name"/>
         <span>This is input: {name}</span>
+        </div>
         </>
     )
 }

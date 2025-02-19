@@ -7,6 +7,7 @@ const Ex1 = () => {
     return (
 
         <>
+        <h3>Ex1</h3>
         <div>
         <input type="text" onChange={(e)=>{setName(e.target.value)}} placeholder="input name"/>
         <br />

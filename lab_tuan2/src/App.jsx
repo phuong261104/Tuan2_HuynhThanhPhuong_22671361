@@ -12,13 +12,8 @@ function App() {
 
   return (
     <>
-      <Ex1/>
-      <br />
-      <Ex2/>
-      <br />
-      <Ex3/>
-      <br />
-      <Ex4/>
+      <Ex1 />
+
     </>
   )
 }

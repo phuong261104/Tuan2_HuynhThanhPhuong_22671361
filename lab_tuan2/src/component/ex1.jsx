@@ -7,11 +7,14 @@ const Ex1 = () => {
     return (
 
         <>
-        <h3>Ex1</h3>
-        <div>
-        <input type="text" style={{marginRight: "10px"}} onChange={(e)=>{setName(e.target.value)}} placeholder="input name"/>
-        <span>This is input: {name}</span>
-        </div>
+            <h1>Ex1</h1>
+            <div>
+                <input type="text"
+                    style={{ marginRight: "10px", width: "60vw", fontSize: "20px", borderRadius: "10px", padding: "10px" }}
+                    onChange={(e) => { setName(e.target.value) }}
+                    placeholder="input name" />
+                <h1>This is input: {name}</h1>
+            </div>
         </>
     )
 }

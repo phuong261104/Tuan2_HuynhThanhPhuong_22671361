@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-      <Ex1 />
+      <Ex2 />
 
     </>
   )
